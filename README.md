@@ -1,4 +1,4 @@
-# Client Helper - Local Notes (Version 1)
+# CredSync - Local Notes (Version 1)
 
 ### 📌 Overview
 This version stores notes locally in your browser using `chrome.storage.local`.  
