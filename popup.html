@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Client Helper</title>
+  <style>
+    body { font-family: Arial; padding: 12px; width: 300px; }
+    input, textarea { width: 100%; margin-bottom: 8px; padding: 6px; }
+    button { width: 100%; padding: 8px; background: #d28819; color: #fff; border: none; cursor: pointer; }
+    button:hover { background: #d28819; }
+    .domain { font-weight: bold; margin-bottom: 6px; }
+  </style>
+</head>
+<body>
+  <div class="domain" id="domain"></div>
+  <textarea id="notes" placeholder="Notes for this client..."></textarea>
+  <input type="text" id="status" placeholder="Status (Design, Dev, Live...)" />
+  <input type="url" id="adminLink" placeholder="Admin Panel URL" />
+  <button id="save">Save</button>
+  <p id="message" style="color: green; font-size: 12px;"></p>
+  <script src="popup.js"></script>
+</body>
+</html>
